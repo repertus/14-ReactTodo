@@ -1,0 +1,58 @@
+/**********************************************
+Styling parameters for wrapper and container
+ *********************************************/
+.wrapper {
+	padding-bottom: 200px;
+	max-width: 80%;
+	margin: 0 10%;
+	background-color: #c9c920;
+	background-image: url(https://www.transparenttextures.com/patterns/notebook.png);
+}
+
+.container {
+	/*Establishes the parameters for sticky footer*/
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -20em;
+	max-width: 100%
+}
+
+.App {
+  text-align: center;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-header {
+     text-align: center;
+	height: 100px;
+     background-color: #c9ae00;
+     background-image: url(https://www.transparenttextures.com/patterns/noisy-net.png);
+     background-position: center;
+}
+
+.App-h1 {
+     margin-top: 0;
+     padding-top: .5em;
+     color: #b6c9c9;
+     text-shadow: 2px 2px 4px #000000;
+     font-family: 'Architects Daughter';
+     font-size: 3.8rem;
+     font-weight: 500;
+     line-height: 26px;
+}
+
+.App-push {
+     height: 6em;
+}
+
+.App-footer, .App-push {
+     /*Establishes the parameters for sticky footer*/
+     font-size: 1em;
+	height: 20em;
+	clear: both;
+	text-align: center;
+}
