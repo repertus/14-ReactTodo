@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './components/Footer';
 import Form from './components/Form';
 
@@ -14,7 +15,7 @@ class App extends Component {
               <div className="container">
                    <Form />
               </div>
-              <div className="App-push"></div>
+              <div className="App-push" />
               <div className="App-footer">
                    <Footer />
               </div>
