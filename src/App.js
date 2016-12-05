@@ -3,7 +3,8 @@ import React, { Component } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './components/Footer';
-import Form from './components/Form';
+import TodoForm from './components/TodoForm';
+import TodoTable from './components/TodoTable';
 
 class App extends Component {
   render() {
@@ -13,7 +14,8 @@ class App extends Component {
                    <h1 className="App-h1">My To Do List</h1>
               </header>
               <div className="container">
-                   <Form />
+                   <TodoForm />
+                   <TodoTable />
               </div>
               <div className="App-push" />
               <div className="App-footer">
